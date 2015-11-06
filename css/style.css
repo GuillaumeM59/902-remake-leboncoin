@@ -10,13 +10,26 @@ header span {display: inline;font-weight: bold;}
 #slogan{display:block;clear: both;height: 1.2em;}
 #slogan img {float: left;margin-top: 0.5em; width: 65%;}
 #slogan p{float: right; margin-top: 0.5em;font-size: 0.9em; color:#F60; font-weight: bold;}
+/* bloc article: carte de france cliquable et menu à droite*/
 #map {float:left;width:60%;margin-left: 5%;}
 nav {float: right; width: 35%;}
 nav ul {margin-top: 0;list-style: none; margin-left: 5%;text-align: right;}
-nav a{text-decoration: none;font-weight: 700;font-family: "OpenSans",sans-serif; color:#369; }
-#appdl {width: 100%; float: right;}
-#about {width: 100%; float: right;}
-#social {width: 100%; float: right;}
+nav ul a:hover{text-decoration: underline; font-size: 1em;}
+nav a{text-decoration: none;font-size: 0.9em;font-weight: 700;font-family: "OpenSans",sans-serif; color:#369; }
 area{margin-left: 0}
 area:hover {color: yellow;}
 map {text-align: left;clear: both;margin-left: 0;background-color: red;margin-left: 5%;}
+/*bloc applications, alignement des image cliquable à droite*/
+#appdl {width: 100%; clear: both;text-align: right;}
+#appdl a{text-decoration: none;}
+/* bloc réseau sociaux: alligné, à droite*/
+#social {display: inline-block;width: 100%; text-align: right;margin-top: 1%;}
+#social p{display: inline;}
+#social a{text-decoration: none;}
+/* trois prochains blocs en petit:*/
+#about, footer, #international { font-size: 0.85em;color: #666; font-family: "OpenSans",sans-serif;}
+#about a, footer a, #international a{color: #369; text-decoration: none;}
+#about p, footer p, #international p{text-align: center;}
+/*bloc about centré*/
+#about {display: inline;width: 100%;}
+#about p {text-align: center;}
