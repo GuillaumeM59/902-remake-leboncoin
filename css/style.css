@@ -7,13 +7,18 @@ header img {float: left; margin-top: auto;width: 40%;}
 header p {float: right; width: 55%; text-align: right; font-size: 0.8em;margin-top: 2.5%;margin-bottom: 0;}
 header span {display: inline;font-weight: bold;}
 /*styling slogan section: img on left, p on right*/
-#slogan{display:block;clear: both;height: 1.2em;}
+#slogan{display:block;position: relative;clear: both;height: 1.2em;}
 #slogan img {float: left;margin-top: 0.5em; width: 65%;}
 #slogan p{float: right; margin-top: 0.5em;font-size: 0.9em; color:#F60; font-weight: bold;}
+/*bouton deposer une annonce et animation onhover*/
+aside{position:absolute;margin-top: 0;}
+#onhover{display:none;}
+#depose:hover a[id="initial"] {display:none;}
+#depose:hover a[id="onhover"] {display:block;}
 /* bloc article: carte de france cliquable et menu à droite*/
-#map {float:left;width:60%;margin-left: 5%;}
+#map {float:left;width:60%;margin-left: 5%;margin-top: 2%;}
 nav {float: right; width: 35%;}
-nav ul {margin-top: 0;list-style: none; margin-left: 5%;text-align: right;}
+nav ul {margin-top: 0;margin-left:0;list-style: none; margin-left: 5%;text-align: right;}
 nav ul a:hover{text-decoration: underline; font-size: 1em;}
 nav a{text-decoration: none;font-size: 0.9em;font-weight: 700;font-family: "OpenSans",sans-serif; color:#369; }
 area{margin-left: 0}
@@ -27,9 +32,15 @@ map {text-align: left;clear: both;margin-left: 0;background-color: red;margin-le
 #social p{display: inline;}
 #social a{text-decoration: none;}
 /* trois prochains blocs en petit:*/
-#about, footer, #international { font-size: 0.85em;color: #666; font-family: "OpenSans",sans-serif;}
+#about, footer, #international { font-size: 0.6em;color: #666; font-family: "OpenSans",sans-serif;}
 #about a, footer a, #international a{color: #369; text-decoration: none;}
 #about p, footer p, #international p{text-align: center;}
 /*bloc about centré*/
 #about {display: inline;width: 100%;}
 #about p {text-align: center;}
+footer a{text-align: center; margin-right: 1%;}
+footer p{color:red;}
+#international p{display: inline; margin-bottom: 0;text-align: center;}
+#international a{margin-right: 1%;}
+#international {text-align: center;margin-top: 1%;}
+footer {border-top: 1px solid #666;border-bottom: 1px solid #666;}
