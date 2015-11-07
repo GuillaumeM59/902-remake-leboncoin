@@ -51,6 +51,7 @@ footer {border-top: 1px solid #666;border-bottom: 1px solid #666;}
   #slogan img {display: none;}
   #slogan p {display:block;float:none; margin: auto;text-align: center;}
   #map {position:inherit;float: none;width:100%; text-align: center;}
+  #map img {width: 80%; margin:auto;}
   nav {float: none; display: block; width: 95%; margin:auto;}
   nav ul{ padding-left: 0; margin-left: 0;text-align: center;}
   nav li{ margin: auto;display: inline-block;}
