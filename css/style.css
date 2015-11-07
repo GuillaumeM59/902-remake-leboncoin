@@ -43,7 +43,7 @@ footer p{color:red;}
 #international {text-align: center;margin-top: 1%;}
 footer {border-top: 1px solid #666;border-bottom: 1px solid #666;}
 
-@media all and (max-width: 800px) {
+@media all and (max-device-width: 800px) {
   body {width:auto;margin: 0;}
   header {height: auto;}
   header img {float:none;display:block; margin: auto;}
