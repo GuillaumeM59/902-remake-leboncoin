@@ -76,8 +76,8 @@ footer {border-top: 1px solid #666;border-bottom: 1px solid #666;}
     nav ul li {display: block; margin: auto; border: none;margin-bottom: 1%;}
     nav a{font-size: 1.5em;}
     #appdl{float: none; display:inline-block; width: 49%;margin: auto; text-align: center;}
-    #appdl img {height:120%; height: auto; margin-top: auto;}
+    #appdl img {width: auto;}
     #social{float: none; display:inline-block; width: 49%;margin: auto;text-align: center;}
-    #social img{ height: 150%;}
+    #social img{ width: auto;}
     footer, #about , #international {display: block;width:auto; font-size: 1em;padding-left: 3%; padding-right: 3%;}
   }
