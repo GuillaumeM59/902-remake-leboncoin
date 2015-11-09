@@ -44,7 +44,7 @@ footer p{color:red;}
 footer {border-top: 1px solid #666;border-bottom: 1px solid #666;}
 
 /*media queries between 800px 500px*/
-@media all and (max-width: 800px) {
+@media all and (max-device-width: 800px) {
   body {width:auto;margin: 0;}
   header {height: auto;}
   header img {float:none;display:block; margin: auto;margin-top: 2%;}
@@ -56,13 +56,13 @@ footer {border-top: 1px solid #666;border-bottom: 1px solid #666;}
   nav {float: none; display: block; width: 95%; margin:auto;}
   nav ul{ display: flex;flex-direction: row; flex-wrap: wrap;justify-content: space-around;align-content: space-between;padding-left: 0; margin-left: 0;text-align: center;margin-top: 4%;}
   nav ul li {margin: 4% 3%;border: 1px solid #666;}
-  nav a{font-size: 1.2em;}
+  nav a{font-size: 1em;}
   #social{float: none; display:block; margin: auto;text-align: center;}
   #appdl{float: none; display:block; margin: auto; text-align: center;}
   footer, #about , #international {display: block;width:auto; font-size: 1em;padding-left: 3%; padding-right: 3%;}
 
   /*media queries for screen-width under 350px*/
-@media all and (max-width: 350px) {
+@media all and (max-device-width: 350px) {
     body {width:auto;margin: 0;}
     header {height: auto;}
     header img {float:none;display:block; margin: auto;margin-top: 2%;}
@@ -79,7 +79,5 @@ footer {border-top: 1px solid #666;border-bottom: 1px solid #666;}
     #appdl img {height:120%; height: auto; margin-top: auto;}
     #social{float: none; display:inline-block; width: 49%;margin: auto;text-align: center;}
     #social img{ height: 150%;}
-
-
     footer, #about , #international {display: block;width:auto; font-size: 1em;padding-left: 3%; padding-right: 3%;}
   }
